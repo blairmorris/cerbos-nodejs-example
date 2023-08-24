@@ -24,3 +24,6 @@ audit:
   local: # Configuration for the local audit backend
     storagePath: /auditlogs # Path to store the data
     retentionPeriod: 168h # Records older than this will be automatically deleted
+
+telemetry:
+  disabled: true # Set to false to enable telemetry
